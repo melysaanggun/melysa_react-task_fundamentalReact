@@ -5,8 +5,7 @@ export default function ToDoList(lists){
     return (
     <>
     <Header text="To Do App"/>
-    <ToDoList list={lists[0]} />
-    <List />
+    {lists.map((lists)=> <List lists={lists}/>)}
     </>
     
     )

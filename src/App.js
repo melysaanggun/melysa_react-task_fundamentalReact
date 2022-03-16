@@ -4,7 +4,7 @@ import { data } from "./Data.js";
 
 function App() {
   return (
-    <ToDoList lists={data}/>
+    <ToDoList lists={ data }/>
   );
 }
 
