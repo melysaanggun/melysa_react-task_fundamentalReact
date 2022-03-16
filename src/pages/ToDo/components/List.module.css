@@ -1,0 +1,8 @@
+.boxContainer {
+    border-radius: 50px;
+    border: 2px solid black;
+    padding: 5px; 
+    width: fit-content;
+    height: fit-content; 
+    margin: 25px 30px;
+}
